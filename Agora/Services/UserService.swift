@@ -6,8 +6,6 @@
 //
 import Foundation
 
-import Foundation
-
 struct UserService {
     static func fetchUsers() async throws -> [User] {
         let urlString = "\(APIConstants.DEV_BASE_URL)/users/"
